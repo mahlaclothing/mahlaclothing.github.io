@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Frontpage</title>
+
+    <script src="helpers.js"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-default menu_background_black" role="navigation" id="position">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for mobile -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- When menubar collapses, only the "brand" button and toggle will remain -->
+
+                <a href="index.html">
+                    <img class="nav_logo" src="billeder/logo.png" alt="Mahla Clothing logo">
+                </a>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav" id="nav_text">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SHOP
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="shop.html">Shop Online</a>
+                                </li>
+                                <li>
+                                    <a href="retailers.html">Retailers</a>
+                                </li>
+                                <!-- <li>
+                                                    <a href="terms_conditions.html">TERMS AND CONDITIONS</a>
+                                                </li> -->
+                            </ul>
+                        </li>
+                        <!-- Dropdown section -->
+                        <li class="dropdown">
+                            <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">ABOUT
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="about.html">About Mahla Clothing</a>
+                                </li>
+                                <li>
+                                    <a href="behind_the_brand.html">Behind the Brand</a>
+                                </li>
+                                <li>
+                                    <a href="materials.html">Materials</a>
+                                </li>
+                                <li>
+                                    <a href="production.html">Production</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end Dropdown -->
+
+                        <li class="dropdown active">
+                            <a href="news.html" class="dropdown-toggle" data-toggle="dropdown">NEWS
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="news.html">News</a>
+                                </li>
+                                <li>
+                                    <a href="markets.html">Markets and Popups</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+
+
+
+                    </li>
+                    </ul>
+                    <!-- Right side elements -->
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+
+        <main class="clearfix">
+            <h1 class="h1_about">NEWS</h1>
+
+            <ul class="news_detail" id="news_detail">Loading Data...</ul>
+
+        </main>
+
+    </div>
+
+    <footer class="clearfix footer">
+
+
+        <menu class="bund_menu">
+            <a href="about.html">About</a>
+            <a href="news.html">News</a>
+            <a href="https://www.weecos.com/en/stores/mahla-clothing" target="_blank">Shop Online</a>
+            <a href="retailers.html">Retailers</a>
+            <a href="terms_conditions.html">Terms &amp; Conditions</a>
+            <a href="contact.html">Contact</a>
+        </menu>
+        <div id="footer_links">
+            <a href="https://www.facebook.com/mahlaclothing/" target="_blank">
+                <i class="fa fa-facebook-square" style="font-size:40px;color:black;"></i>
+            </a>
+            <a href="https://www.instagram.com/mahlaclothing/" target="_blank">
+                <i class="fa fa-instagram" style="font-size:40px;color:black;"></i>
+            </a>
+        </div>
+        <div class="col-md-12">
+
+            <div class="col-md-6">
+                <p class="copyright">©2018 Sørine Faber &amp; MahlaClothing. All Rights Reserved.</p>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <script src="jquery-3.3.1.min(1).js "></script>
+    <!--indlæs først! ellers virker bootstrap ikke //-->
+    <script src="js/bootstrap.min.js "></script>
+
+    <script src="js/news_detail.js"></script>
+
+
+
+</body>
+
+</html>

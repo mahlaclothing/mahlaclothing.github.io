@@ -1,0 +1,69 @@
+input.form-control {
+    height: 1.5em;
+  }
+
+  .navbar-brand img{
+    max-width:15rem !important;
+    height:auto;
+    margin-left:2rem;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #000 !important;
+}
+
+.navbar-default {
+  background:rgba(0,0,0,0) !important;
+  border-color: rgba(0,0,0,0) !important; 
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+  
+  header {
+    height: 10rem !important;
+  }
+
+  nav ul{
+    margin-left:58% !important;
+    margin-top:-4rem !important;
+  }
+
+  nav li a{
+    font-size: 1.9rem;
+    margin-top:11px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: white !important;
+    z-index: 100000;
+}
+
+.active a{
+  background-color:rgba(124, 124, 124, 0.103) !important;
+}
+
+.dropdown-menu>li>a{
+  color:white !important;
+  margin-left:1rem !important; 
+  padding-left:1px !important;
+
+}
+
+.dropdown-menu{
+  background-color:rgba(0,0,0,0) !important;
+  border-color: rgba(0,0,0,0) !important; 
+  margin-left:1px !important;
+ 
+}
+.dropdown-menu li a:hover{
+  background-color:rgba(0,0,0,0) !important;
+  border-color: rgba(0,0,0,0) !important; 
+  margin-left:5px !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background:rgba(0,0,0,0.2) !important;
+  border-color: rgba(0,0,0,0) !important; 
+}

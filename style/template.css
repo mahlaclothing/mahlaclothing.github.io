@@ -1,0 +1,515 @@
+.h1_about{
+    text-align: center;
+    padding-top:6rem !important;
+    margin-bottom: 8rem;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    }
+
+    .h1_production{
+        text-align: center;
+        padding-top:4rem !important;
+        margin-bottom: 6rem;
+        letter-spacing: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4rem;
+    }
+
+    #center_text{
+        margin:0 auto 11rem;
+        max-width:900px;
+        height:auto;
+    }
+
+    .h2_about{
+        text-align: center !important;
+        font-size: 2.5rem !important;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        margin-bottom:4rem;
+        margin-top:5rem;
+    }
+
+    .padding_about{
+        padding-left:3.5rem !important;
+        padding-right: 3.5rem !important;
+    }
+
+    .padding_about li{
+        margin-bottom:0rem;
+        margin-top:2.8rem;
+        font-size:1.6rem;
+       list-style: none;
+       font-family: 'Quicksand', sans-serif;
+    }
+
+    .padding_photo{
+        padding-left:2rem;
+        padding-right:2rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+        font-family: 'Quicksand', sans-serif;
+        display: inline !important;
+        position: relative;
+        z-index: 10;
+    }
+
+    .terms_border{
+        border-top:1px black solid;
+    }
+
+    .space_t{
+        font-size: 1.4rem !important;
+        letter-spacing: 2px !important;
+        margin-bottom: 2rem !important;
+        font-family: 'Montserrat', sans-serif !important;
+        padding-right:2rem !important;
+        padding-left:2rem !important;
+    }
+
+    .bottom{
+        margin-bottom: 7rem;
+    }
+
+    
+.question{
+    padding-left:5rem;
+    padding-right:5rem;
+    text-align: center;
+}
+
+.center_t h3{
+    padding-bottom:1rem;
+    padding-top: 1.5rem !important;
+    font-size:1.8rem;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin:0 !important;
+}
+
+.center_t li{
+    list-style: none;
+}
+
+.center_t h4{
+    font-size:1.3rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* MOBILE */
+    @media screen and (max-width: 322px) {
+        .padding_about h3{
+            text-align: center;
+        }
+        
+        .mobile_padding{
+            margin-left:1.5rem !important;
+            margin-right:2rem !important;
+        }
+    .h1_about{
+        padding-top:0 !important;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+        }
+
+        .h1_production{
+            padding-top:0 !important;
+            margin-bottom: 5rem;
+            font-size: 3.5rem;
+        }
+
+        .about_links{
+            background-color:white !important; 
+        }
+
+        .about_menu{
+        font-size:2rem;
+            margin-top:1rem !important;
+            margin-bottom:1rem !important;
+            background-color:black;
+            padding:1rem;
+            text-align: left !important;
+        }
+        
+    div.padding_about{
+    letter-spacing: 1px;
+       margin-top:1rem !important;
+       margin-bottom:1rem !important;
+       padding-left:1rem !important;
+       padding-right:1rem !important;
+       text-align: left;
+    }
+
+    .bomuld_billede{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+    
+    .bomuld_billede_2{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+     
+    }
+
+    .production_photo{
+        margin-top:2rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+
+    .padding_about li{
+        margin-bottom:0.8rem;
+        margin-top:0.8rem;
+        font-size:1.6rem;
+       list-style: none;
+       font-family: 'Quicksand', sans-serif;
+    }
+
+    .h2_about{
+   
+        margin-bottom:2rem;
+        margin-top:4rem;
+    }
+
+ 
+}
+
+/* MOBILE */
+@media screen and (max-width: 376px) and (min-width: 323px) {
+    .padding_about h3{
+        text-align: center;
+    }
+    
+    .mobile_padding{
+        margin-left:1rem !important;
+        margin-right:1.2rem !important;
+    }
+    .h1_about{
+        padding-top:0 !important;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+        }
+
+        .h1_production{
+            padding-top:0 !important;
+            margin-bottom: 5rem;
+            font-size: 3.5rem;
+        }
+
+        .about_links{
+            background-color:white !important; 
+        }
+
+        .about_menu{
+        font-size:2rem;
+            margin-top:1rem !important;
+            margin-bottom:1rem !important;
+            background-color:black;
+            padding:1rem;
+            text-align: left !important;
+     
+        }
+        
+    div.padding_about{
+    letter-spacing: 1px;
+       margin-top:1rem !important;
+       margin-bottom:1rem !important;
+       padding-left:1rem !important;
+       padding-right:1rem !important;
+       text-align: left;
+    }
+
+    .bomuld_billede{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+    
+    .bomuld_billede_2{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+     
+    }
+
+    .production_photo{
+        margin-top:2rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+
+    .padding_about li{
+        margin-bottom:0.8rem;
+        margin-top:0.8rem;
+        font-size:1.6rem;
+       list-style: none;
+       font-family: 'Quicksand', sans-serif;
+    }
+
+    .h2_about{
+   
+        margin-bottom:2rem;
+        margin-top:4rem;
+    }
+
+ 
+}
+
+/* MOBILE */
+@media screen and (max-width: 426px) and (min-width: 377px) {
+    .padding_about h3{
+        text-align: center;
+    }
+    
+    .mobile_padding{
+        margin-left:1.5rem !important;
+        margin-right:2rem !important;
+    }
+    
+    .h1_about{
+        padding-top:0 !important;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+        }
+
+        .h1_production{
+            padding-top:0 !important;
+            margin-bottom: 5rem;
+            font-size: 3.5rem;
+        }
+
+        .about_links{
+            background-color:white !important; 
+        }
+
+        .about_menu{
+        font-size:2rem;
+            margin-top:1rem !important;
+            margin-bottom:1rem !important;
+            background-color:black;
+            padding:1rem;
+            text-align: left !important;
+     
+        }
+        
+    div.padding_about{
+    letter-spacing: 1px;
+       margin-top:1rem !important;
+       margin-bottom:1rem !important;
+       padding-left:1rem !important;
+       padding-right:1rem !important;
+       text-align: left;
+    }
+
+    .bomuld_billede{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+    
+    .bomuld_billede_2{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+     
+    }
+
+    .production_photo{
+        margin-top:2rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+
+    .padding_about li{
+        margin-bottom:0.8rem;
+        margin-top:0.8rem;
+        font-size:1.6rem;
+       list-style: none;
+       font-family: 'Quicksand', sans-serif;
+    }
+
+    .h2_about{
+   
+        margin-bottom:2rem;
+        margin-top:4rem;
+    }
+
+
+}
+
+/* TABLET */
+@media screen and (max-width: 769px) and (min-width: 426px) {
+    .padding_about h3{
+        text-align: center;
+    }
+    
+    .h1_about{
+        padding-top:0 !important;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+        }
+        
+
+        .h1_production{
+            padding-top:0 !important;
+            margin-bottom: 5rem;
+            font-size: 3.5rem;
+        }
+
+        .about_links{
+            background-color:white !important; 
+        }
+
+        .about_menu{
+        font-size:2rem;
+            margin-top:1rem !important;
+            margin-bottom:1rem !important;
+            background-color:black;
+            padding:1rem;
+            text-align: center!important;
+     
+        }
+        
+    div.padding_about{
+    letter-spacing: 1px;
+       margin-top:1rem !important;
+       margin-bottom:1rem !important;
+       padding-left:1rem !important;
+       padding-right:1rem !important;
+       text-align: left;
+    }
+
+    .bomuld_billede{
+        width:100% !important;
+        height:auto;
+        float:left !important;
+
+    }
+    
+    .bomuld_billede_2{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+     
+    }
+
+    .production_photo{
+        margin-top:2rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+
+    .padding_about li{
+        margin-bottom:0.8rem;
+        margin-top:0.8rem;
+        font-size:1.6rem;
+       list-style: none;
+       font-family: 'Quicksand', sans-serif;
+    }
+
+    .h2_about{
+   
+        margin-bottom:2rem;
+        margin-top:4rem;
+    }
+
+   
+}
+/* LAPTOP */
+@media screen and (max-width: 1025px) and (min-width: 770px) {
+    .h1_about{
+        padding-top:8rem !important;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+        }
+
+        .h1_production{
+            padding-top:8rem !important;
+            margin-bottom: 5rem;
+            font-size: 3.5rem;
+        }
+
+        .about_links{
+            background-color:white !important; 
+        }
+
+        .about_menu{
+        font-size:2rem;
+            margin-top:1rem !important;
+            margin-bottom:1rem !important;
+            margin-left:0.5rem;
+            margin-right:0.5rem;
+            background-color:black;
+            padding:1rem;
+            text-align: left !important;
+            width:32% !important;
+     
+        }
+        
+    div.padding_about{
+    letter-spacing: 1px;
+       margin-top:1rem !important;
+       margin-bottom:1rem !important;
+       padding-left:1rem !important;
+       padding-right:1rem !important;
+       text-align: left;
+    }
+
+    .bomuld_billede{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        height:auto;
+    }
+    
+    .bomuld_billede_2{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+     
+    }
+
+    .production_photo{
+        margin-top:2rem;
+        margin-bottom: 1rem;
+        width:100% !important;
+        height:auto;
+    }
+
+    .padding_about li{
+        margin-bottom:0.8rem;
+        margin-top:0.8rem;
+        font-size:1.6rem;
+       list-style: none;
+       font-family: 'Quicksand', sans-serif;
+    }
+
+    .h2_about{
+   
+        margin-bottom:2rem;
+        margin-top:4rem;
+    }
+
+    
+}

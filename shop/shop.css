@@ -1,0 +1,1159 @@
+
+.dropbtn {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width:900px;
+  height: auto;
+
+}
+
+.left li{
+ float:left;
+ list-style: none;
+
+}
+
+.left{
+ text-align: center !important;
+   }
+
+.c_active{
+    font-weight: 700;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop2{
+    margin-bottom: 5rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:1rem;
+  background-color:none;
+  min-width: 920px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center !important;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.show li{
+    height:4rem;
+    width:auto;
+    padding-top:1rem;
+}
+
+.show{
+    padding-left:1.8rem !important;
+}
+
+.dropdown-content a {
+  color: black;
+  letter-spacing: 3px;
+font-size: 1.4rem;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  float:left;
+}
+
+.dropdown a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.show {
+    display: block;
+}
+
+button:focus {outline:0;}
+
+
+/* MOBILE */
+@media screen and (max-width: 322px) {
+
+.shop_position{
+    position: relative;
+    z-index: 10;
+}
+
+  /*UNDERMENU*/
+
+  .dropbtn {
+  width:322px;
+  height: auto;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.drop2{
+    margin-bottom: 14rem;
+}
+
+.dropdown-content {
+  min-width: 322px;
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  letter-spacing: 3px;
+    font-size: 1.4rem;
+  padding: 2px;
+  text-decoration: none;
+  display: block;
+  float:left;
+}
+
+.dropdown a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+}
+
+
+ 
+
+/* MOBILE */
+@media screen and (max-width: 376px) and (min-width: 323px) {
+
+    /* NAV */
+  .navbar-brand img{
+    max-width:8rem !important;
+    margin-left:-2rem;
+    padding:0;
+  }
+
+  .navbar-toggle {
+      margin-right:0px !important;
+      background:transparent;
+  }
+
+  .dropdown-menu>li>a{
+    color:black !important;
+    margin-left:2rem !important; 
+    padding-left:1px !important;
+
+  }
+
+  nav li a{
+    font-size: 1.7rem;
+    margin-top:11px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: black !important;
+}
+
+  nav ul{
+    background-color: white !important;
+    margin-left:3rem !important;
+
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent !important;
+}
+  /* COVER */
+
+    #front_photo img{
+        margin-top:-13rem;
+        z-index: -10;
+    }
+    
+    #cover_text{
+        margin-top:7rem;
+        margin-left:1.8rem;
+        font-size: 0.8rem;
+        letter-spacing: 4px;
+    
+    }
+
+    /* CONTAINER 1 */
+
+#first_container #background img{
+    height:30%;
+    margin-top: 10.3rem !important;
+    
+}
+
+#first_container #photo1 img{
+    width:32% !important;
+    height:auto;
+    margin-top: 10.8rem !important;
+    margin-left:4rem !important;
+}
+
+#first_container #photo2 img{
+  
+    width:30% !important;
+    height:auto;
+    margin-top: 10.8rem !important;
+    margin-left:17rem !important;
+
+}
+
+#first_container #photo3 img{
+ 
+    width:30%;
+    height:auto;
+    margin-top: 19.2rem;
+    margin-left:17rem !important;
+}
+
+/* CONTAINER 1 TEXT */
+
+.space{
+    padding:0;
+}
+
+#first_container #rotate{ 
+    font-size: 1.3rem !important;
+  padding:none;
+}
+
+#first_container #rotate { 
+    width:0;
+    margin:0 auto;
+    word-wrap: break-word;  
+  top:22rem;
+  left:32rem;
+  position:absolute;
+  text-align: center;
+  font-weight: 700;
+}
+
+#first_container #dress p{ 
+    display:none;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top:10rem;
+    margin-left:4.5rem;
+}
+
+#first_container #jackets p{ 
+    display:none;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top:14rem;
+    margin-left:21rem;
+}
+
+#first_container #sweatshirts p{
+    display:none;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top:24rem;
+    margin-left:19.5rem;
+
+}
+
+/* CONTAINER 2 */
+
+#second_container #background2 img{
+    height:28%;
+    margin-top: 28rem;
+}
+
+#second_container #photo4 img{
+    display:none;
+}
+
+#second_container #photo5 img{
+    display:none;
+}
+
+/* CONTAINER 3 */
+
+#third_container #background3 img{
+    display:none;
+}
+
+#photo6 img{
+  display: none;
+}
+
+#mail_front{
+    margin-top: 1.1rem;
+    height:1.5rem !important;
+    letter-spacing: 1px;   
+}
+
+.container{
+    margin-left:4rem !important;
+    margin-top: 31rem;
+    width:15rem !important;
+    text-align: center;
+}
+
+#mail_front p{
+    margin-top: 2rem;
+    height:1rem !important;
+    width:12rem;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-left:7.4rem !important;
+    text-align: center;
+    
+}
+
+#mail_front h1{
+    font-size:1.2rem;
+    text-align: center;
+    width:15rem;
+    margin-left: 6rem;
+}
+
+#mail_front input{
+    margin-top:3.5rem;
+    width:16rem !important;
+    letter-spacing: 1px;
+    height:2.5rem;
+    font-size: 0.8rem !important;
+    margin-left:5.8rem;
+}
+
+#mail_front button{
+    margin-top:-2.8rem;
+    margin-right:-12.3rem;
+  font-size: 0.8rem;
+  background:rgba(0,0,0,0) !important;
+    border:rgba(0,0,0,0) !important;
+}
+
+/* CONTAINER 4 FOOTER */
+
+#footer_menu{
+    display:none;
+}
+
+#mobile_footer_menu{
+display:inherit;
+}
+
+#fourth_container menu {
+    margin-top:45rem;
+       height:5rem;
+        width:100%;
+        
+    }
+
+    .icon_bottom{
+        margin-left:29%;
+    }
+    .icon_bottom i{
+        font-size: 2.5rem;
+        padding-top:1.2rem;
+    }
+
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 426px) and (min-width: 377px) {
+
+    /* NAV */
+  .navbar-brand img{
+    max-width:8rem !important;
+    margin-left:-2rem;
+    padding:0;
+  }
+
+  .navbar-toggle {
+      margin-right:0px !important;
+      background:transparent;
+  }
+
+  .dropdown-menu>li>a{
+    color:black !important;
+    margin-left:1rem !important; 
+    padding-left:1px !important;
+
+  }
+
+  nav li a{
+    font-size: 1.7rem;
+    margin-top:11px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: black !important;
+}
+
+  nav ul{
+    background-color: white !important;
+    margin-left:1rem !important;
+
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent !important;
+}
+  /* COVER */
+
+    #front_photo img{
+        margin-top:-13rem;
+        z-index: -10;
+    }
+    
+    #cover_text{
+        margin-top:10rem;
+        margin-left:1.8rem;
+        font-size: 0.8rem;
+        letter-spacing: 4px;
+    
+    }
+
+    /* CONTAINER 1 */
+
+#first_container #background img{
+    height:35%;
+    margin-top: 13rem !important;
+    
+}
+
+#first_container #photo1 img{
+    width:32% !important;
+    height:auto;
+    margin-top: 14rem !important;
+    margin-left:4rem !important;
+}
+
+#first_container #photo2 img{
+  
+    width:30% !important;
+    height:auto;
+    margin-top: 14rem !important;
+    margin-left:19rem !important;
+
+}
+
+#first_container #photo3 img{
+ 
+    width:30%;
+    height:auto;
+    margin-top: 23.55rem;
+    margin-left:19rem !important;
+}
+
+/* CONTAINER 1 TEXT */
+
+.space{
+    padding:0;
+}
+
+#first_container #rotate{ 
+    font-size: 1.4rem !important;
+  padding:none;
+}
+
+#first_container #rotate { 
+    width:0;
+    margin:0 auto;
+    word-wrap: break-word;  
+  top:26rem;
+  left:36.5rem;
+  position:absolute;
+  text-align: center;
+  font-weight: 700;
+}
+
+#first_container #dress p{ 
+    display:none;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top:10rem;
+    margin-left:4.5rem;
+}
+
+#first_container #jackets p{ 
+    display:none;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top:14rem;
+    margin-left:21rem;
+}
+
+#first_container #sweatshirts p{
+    display:none;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top:24rem;
+    margin-left:19.5rem;
+
+}
+
+/* CONTAINER 2 */
+
+#second_container #background2 img{
+    height:32%;
+    margin-top: 35rem;
+}
+
+#second_container #photo4 img{
+    display:none;
+}
+
+#second_container #photo5 img{
+    display:none;
+}
+
+/* CONTAINER 3 */
+
+#third_container #background3 img{
+    display:none;
+}
+
+#photo6 img{
+  display: none;
+}
+
+#mail_front{
+    margin-top: 1.1rem;
+    height:1.5rem !important;
+    letter-spacing: 1px;   
+}
+
+.container{
+    margin-left:5rem !important;
+    margin-top: 39rem;
+    width:15rem !important;
+    text-align: center;
+}
+
+#mail_front p{
+    margin-top: 2rem;
+    height:1rem !important;
+    width:12rem;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-left:7.4rem !important;
+    text-align: center;
+    
+}
+
+#mail_front h1{
+    font-size:1.2rem;
+    text-align: center;
+    width:15rem;
+    margin-left: 6rem;
+}
+
+#mail_front input{
+    margin-top:3.5rem;
+    width:16rem !important;
+    letter-spacing: 1px;
+    height:2.5rem;
+    font-size: 0.8rem !important;
+    margin-left:5.8rem;
+}
+
+#mail_front button{
+    margin-top:-2.8rem;
+    margin-right:-12.3rem;
+  font-size: 0.8rem;
+  background:rgba(0,0,0,0) !important;
+    border:rgba(0,0,0,0) !important;
+}
+
+/* CONTAINER 4 FOOTER */
+
+#footer_menu{
+    display:none;
+}
+
+#mobile_footer_menu{
+display:inherit;
+}
+
+#fourth_container menu {
+    margin-top:55rem;
+       height:5rem;
+        width:100%;
+        
+    }
+
+    .icon_bottom{
+        margin-left:29%;
+    }
+    .icon_bottom i{
+        font-size: 2.5rem;
+        padding-top:1.2rem;
+    }
+
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 769px) and (min-width: 426px) {
+
+    /* NAV */
+
+  
+  header {
+    height: 2rem !important;
+  }
+
+  nav ul{
+      margin-top:-4rem !important;
+    margin-left:32% !important;
+  }
+
+  nav li a{
+    font-size: 1.4rem;
+    margin-top:5px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: white !important;
+}
+
+  /* COVER */
+
+    #front_photo img{
+        margin-top:-6rem;
+        z-index: -10;
+    }
+    
+    #cover_text{
+        margin-top:34rem;
+        margin-left:1.8rem;
+        font-size: 0.8rem;
+        letter-spacing: 4px;
+        font-size:1.2rem;
+    
+    }
+
+    /* CONTAINER 1 */
+
+#first_container #background img{
+    width:100%;
+    height:75%;
+    margin-top: 40rem;
+    z-index: -20;
+    position: absolute;
+}
+
+#first_container #photo1 img{
+    width:32%;
+    height:auto;
+    margin-left:8rem;
+    margin-top: 45rem;
+    z-index: -15;
+    position: absolute;
+}
+
+
+#first_container #photo2 img{
+    width:30%;
+    height:auto;
+    margin-top: 45rem;
+    margin-left:35rem;
+    z-index: -20;
+    position: absolute;
+}
+
+
+#first_container #photo3 img{
+    width:30%;
+    height:auto;
+    margin-top: 62.3rem;
+    margin-left:35rem;
+    z-index: -20;
+    position: absolute;
+}
+
+/* CONTAINER 1 TEXT */
+
+#first_container #rotate{ 
+    font-size: 2.5rem;
+  padding:none;
+    font-family: 'Montserrat', sans-serif;   
+    color:black;   
+}
+
+#first_container #rotate { 
+  top:49rem;
+  left:63rem;
+  position:absolute;
+  text-align: center;
+  font-weight: 700;
+}
+
+#first_container #dress p{
+    font-size: 1rem;
+    margin-top:49rem;
+    margin-left:9rem;
+}
+
+#first_container #jackets p{
+    font-size: 1rem;
+    margin-top:58rem;
+    margin-left:49rem;
+}
+
+#first_container #sweatshirts p{
+
+    font-size: 1rem;
+    margin-top:82rem;
+    margin-left:44.5rem;
+}
+
+
+/* CONTAINER 2 */
+
+#second_container #background2 img{
+    width:100%;
+    height:80%;
+    margin-top: 90rem;
+    z-index: -21;
+    position: absolute;
+    opacity:0.5;
+}
+
+#second_container #photo4 img{
+    width:45%;
+    height:auto;
+    margin-left:4rem;
+    margin-top: 90rem;
+    z-index: -15;
+    position: absolute;
+}
+
+
+#second_container #photo5 img{
+    width:45%;
+    height:auto;
+    margin-top: 95rem;
+    margin-left:40rem;
+    z-index: -20;
+    position: absolute;
+}
+
+/* CONTAINER 3 */
+
+#third_container #background3 img{
+    width:100%;
+    height:80%;
+    margin-top: 145rem;
+    z-index: -21;
+    position: absolute;
+}
+
+#third_container #photo6 img{
+    width:45%;
+    height:auto;
+    margin-left:42rem;
+    margin-top: 150rem;
+    z-index: -15;
+    position: absolute;
+}
+
+#mail_front{
+    margin-top: 1.1rem;
+    height:3rem !important;
+    letter-spacing: 5px;
+    text-align: center;
+    height:auto;
+    color:black !important;
+    font-weight:700;
+    
+}
+
+.container{
+    margin-left:0rem !important;
+    margin-top: 155rem;
+    width:43rem !important;
+    z-index: 20;
+    position: absolute !important;
+    color:black !important;
+}
+
+#mail_front p{
+    margin-top: 2rem;
+    height:3.8rem !important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    text-align: left;
+    height:auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left:6rem !important;
+    color:black !important;
+    
+}
+
+
+#mail_front input{
+    margin-top:12rem;
+    width:30rem !important;
+    letter-spacing: 8px;
+    height:4.5rem;
+    font-size: 1.2rem !important;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+#mail_front button{
+    background:rgba(0,0,0,0) !important;
+    border:rgba(0,0,0,0) !important;
+    float:right;
+    margin-top:-4.5rem;
+    margin-right:1.6rem;
+    z-index: 40;
+}
+
+
+/* CONTAINER 4 FOOTER */
+
+
+#fourth_container menu {
+margin-top:195rem;
+   height:14rem;
+    width:100%;
+    background-color:black !important;
+}
+
+#fourth_container menu ul{
+    margin-top:3.5rem;
+    list-style: none;
+    float:left;
+}
+
+#fourth_container menu ul li a{
+    font-size:1rem;
+    letter-spacing: 5px;
+    
+}
+
+#fourth_container menu ul li{
+    padding-bottom: 0.5rem;
+    width:100%;
+    height:auto;
+    margin-right:5rem !important;
+}
+
+.middle{
+    text-align: center;
+}
+
+.left a{
+    float: right !important;
+    margin-right:-19rem !important;
+}
+
+.icon1 a i{
+    margin-top:2.9rem;
+    float:right;
+    margin-right:-18rem;
+}
+.icon2 a i{
+    margin-top:2.4rem;
+    float:right;
+    margin-right:-15rem;
+
+}
+
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 1025px) and (min-width: 770px) {
+
+    /* NAV */
+
+  header {
+    height: 2rem !important;
+  }
+
+  nav ul{
+      margin-top:-4rem !important;
+    margin-left:49% !important;
+  }
+
+  nav li a{
+    font-size: 1.4rem;
+    margin-top:5px;
+    margin-bottom:20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: white !important;
+}
+
+  /* COVER */
+
+    #front_photo img{
+        margin-top:-6rem;
+        z-index: -10;
+    }
+    
+    #cover_text{
+        margin-top:48rem;
+        margin-left:2.5rem;
+        font-size: 0.8rem;
+        letter-spacing: 4px;
+        font-size:1.2rem;
+    
+    }
+
+    /* CONTAINER 1 */
+
+#first_container #background img{
+    width:100%;
+    height:75%;
+    margin-top: 55rem;
+}
+
+#first_container #photo1 img{
+    margin-left:10rem;
+    margin-top: 63rem;
+}
+
+
+#first_container #photo2 img{
+    margin-top: 63rem;
+    margin-left:46rem;
+}
+
+
+#first_container #photo3 img{
+    margin-top: 86rem;
+    margin-left:46rem;
+}
+
+/* CONTAINER 1 TEXT */
+
+#first_container #rotate{ 
+    font-size: 3rem;
+  padding:none;
+    font-family: 'Montserrat', sans-serif;   
+    color:black;   
+}
+#first_container #rotate:hover{
+    text-decoration: none;
+    font-size: 3.2rem;
+}
+#first_container #rotate { 
+  top:68rem;
+  left:82rem;
+  position:absolute;
+  text-align: center;
+  font-weight: 700;
+}
+
+#first_container #dress p{
+    font-size: 1rem;
+    margin-top:68rem;
+    margin-left:13.5rem;
+}
+
+#first_container #jackets p{
+    font-size: 1rem;
+    margin-top:81rem;
+    margin-left:68rem;
+}
+
+#first_container #sweatshirts p{
+
+    font-size: 1rem;
+    margin-top:113rem;
+    margin-left:63rem;
+}
+
+
+/* CONTAINER 2 */
+
+#second_container #background2 img{
+    width:100%;
+    height:80%;
+    margin-top: 124rem;
+    z-index: -21;
+    position: absolute;
+    opacity:0.5;
+}
+
+#second_container #photo4 img{
+    width:45%;
+    height:auto;
+    margin-left:4rem;
+    margin-top: 123rem;
+    z-index: -15;
+    position: absolute;
+}
+
+
+#second_container #photo5 img{
+    width:45%;
+    height:auto;
+    margin-top: 130rem;
+    margin-left:52rem;
+    z-index: -20;
+    position: absolute;
+}
+
+/* CONTAINER 3 */
+
+#third_container #background3 img{
+    width:100%;
+    height:80%;
+    margin-top: 195rem;
+    z-index: -21;
+    position: absolute;
+}
+
+#third_container #photo6 img{
+    width:45%;
+    height:auto;
+    margin-left:56rem;
+    margin-top: 208rem;
+    z-index: -15;
+    position: absolute;
+}
+
+#mail_front{
+    margin-top: 1.1rem;
+    height:3rem !important;
+    letter-spacing: 5px;
+    text-align: center;
+    height:auto;
+    color:black !important;
+    font-weight:700;
+    
+}
+
+.container{
+    margin-left:0rem !important;
+    margin-top: 218rem;
+    width:50rem !important;
+    z-index: 20;
+    position: absolute !important;
+    color:black !important;
+}
+
+#mail_front p{
+    margin-top: 2rem;
+    height:3.8rem !important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    text-align: left;
+    height:auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left:6rem !important;
+    color:black !important;
+    
+}
+
+
+#mail_front input{
+    margin-top:12rem;
+    width:40rem !important;
+    letter-spacing: 8px;
+    height:4.5rem;
+    font-size: 1.2rem !important;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+#mail_front button{
+    background:rgba(0,0,0,0) !important;
+    border:rgba(0,0,0,0) !important;
+    float:right;
+    margin-top:-4.5rem;
+    margin-right:-1rem;
+    z-index: 40;
+}
+
+
+/* CONTAINER 4 FOOTER */
+
+
+#fourth_container menu {
+margin-top:260rem;
+   height:14rem;
+    width:100%;
+    background-color:black !important;
+}
+
+#fourth_container menu ul{
+    margin-top:3.5rem;
+    list-style: none;
+    float:left;
+}
+
+#fourth_container menu ul li a{
+    font-size:1rem;
+    letter-spacing: 5px;
+    
+}
+
+#fourth_container menu ul li{
+    padding-bottom: 0.5rem;
+    width:100%;
+    height:auto;
+    margin-right:5rem !important;
+}
+
+.middle{
+    text-align: center;
+}
+
+.left a{
+    float: right !important;
+    margin-right:2.3rem !important;
+}
+
+.icon1 a i{
+    margin-top:2.9rem;
+    float:right;
+    margin-right:-6rem;
+}
+.icon2 a i{
+    margin-top:2.4rem;
+    float:right;
+    margin-right:-3.5rem;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

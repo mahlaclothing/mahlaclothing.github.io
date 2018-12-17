@@ -1,0 +1,315 @@
+/* COVER */
+
+#front_photo img{
+    width:100%;
+    height:auto;
+    position: absolute;
+    margin-top:-18rem;
+    z-index: -10;
+}
+
+#cover_text{
+    position: absolute;
+    margin-top:60rem;
+    margin-left:10rem;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
+    color: white !important;
+    text-align: center;
+
+}
+
+/* CONTAINER 1 */
+
+#first_container #background img{
+    width:100%;
+    height:140%;
+    margin-top: 69rem;
+    z-index: -20;
+    position: absolute;
+}
+
+#first_container #photo1 img{
+    width:32%;
+    height:auto;
+    margin-left:25rem;
+    margin-top: 80rem;
+    z-index: -15;
+    position: absolute;
+}
+
+
+#first_container #photo2 img{
+    width:30%;
+    height:auto;
+    margin-top: 80rem;
+    margin-left:75rem;
+    z-index: -20;
+    position: absolute;
+}
+
+
+#first_container #photo3 img{
+    width:30%;
+    height:auto;
+    margin-top: 112.5rem;
+    margin-left:75rem;
+    z-index: -20;
+    position: absolute;
+}
+
+/* CONTAINER 1 TEXT */
+
+#first_container #rotate{ 
+    font-size: 4.3rem;
+  padding:none;
+    font-family: 'Montserrat', sans-serif;   
+    color:black;   
+
+}
+
+#first_container #rotate:hover{
+    text-decoration: none;
+    font-size: 4.4rem;
+}
+
+#rotate{
+    transform: scaleY(0.5);
+    transform: scaleX(0.9999);
+    display: inline-block;
+
+}
+
+#first_container #rotate { 
+    width:0;
+    margin:0 auto;
+    word-wrap: break-word;  
+  top:94rem;
+  left:122rem;
+  position:absolute;
+  text-align: center;
+  font-weight: 700;
+}
+
+#first_container #dress p{
+    color:white;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    position:absolute;
+    margin-top:84rem;
+    margin-left:31rem;
+}
+
+#first_container #jackets p{
+    color:white;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    position:absolute;
+    margin-top:104rem;
+    margin-left:106rem;
+}
+
+#first_container #sweatshirts p{
+    color:white;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    position:absolute;
+    margin-top:150rem;
+    margin-left:101rem;
+    text-align: center;
+}
+
+
+/* CONTAINER 2 */
+
+#second_container #background2 img{
+    width:100%;
+    height:140%;
+    margin-top: 174rem;
+    z-index: -21;
+    position: absolute;
+    opacity:0.5;
+}
+
+#second_container #photo4 img{
+    width:45%;
+    height:auto;
+    margin-left:6rem;
+    margin-top: 172rem;
+    z-index: -15;
+    position: absolute;
+}
+
+
+#second_container #photo5 img{
+    width:45%;
+    height:auto;
+    margin-top: 183rem;
+    margin-left:75rem;
+    z-index: -20;
+    position: absolute;
+}
+
+/* CONTAINER 3 */
+
+#third_container #background3 img{
+    width:100%;
+    height:135%;
+    margin-top: 277rem;
+    z-index: -21;
+    position: absolute;
+}
+
+#third_container #photo6 img{
+    width:45%;
+    height:auto;
+    margin-left:78rem;
+    margin-top: 298rem;
+    z-index: -15;
+    position: absolute;
+}
+
+#mail_front{
+    margin-top: 1.1rem;
+    height:3.8rem !important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    height:auto;
+    color:black !important;
+    font-weight:700;
+    
+}
+
+.container{
+    margin-left:15rem !important;
+    margin-top: 315rem;
+    width:60rem !important;
+    z-index: 20;
+    position: absolute !important;
+    color:black !important;
+}
+
+#mail_front p{
+    margin-top: 2rem;
+    height:3.8rem !important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    text-align: left;
+    height:auto;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left:8rem !important;
+    color:black !important;
+    
+}
+
+
+#mail_front input{
+    margin-top:12rem;
+    width:45rem !important;
+    letter-spacing: 8px;
+    height:4.5rem;
+    font-size: 2rem !important;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+#mail_front button{
+    background:rgba(0,0,0,0) !important;
+    border:rgba(0,0,0,0) !important;
+    float:right;
+    margin-top:-4.5rem;
+    margin-right:2rem;
+    z-index: 40;
+}
+
+#mail_front button i:hover{
+    font-size:4.2rem;
+    margin-right:0.2rem;
+    color:white;
+
+
+}
+
+/* CONTAINER 4 FOOTER */
+
+
+#fourth_container menu {
+margin-top:378rem;
+   height:14rem;
+    width:100%;
+    background-color:black !important;
+}
+
+#fourth_container menu ul{
+    margin-top:3.5rem;
+    list-style: none;
+}
+
+#fourth_container menu ul li a{
+    color:white;
+    font-size:1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    
+}
+
+#fourth_container menu ul li a:hover{
+text-decoration: none;
+color:rgba(255, 255, 255, 0.411);
+    
+}
+
+#fourth_container menu ul li{
+    padding-bottom: 0.5rem;
+}
+
+.middle{
+    text-align: center;
+}
+
+.left a{
+    float: right !important;
+    margin-right:3rem;
+}
+
+.icon1 a i{
+    margin-top:2.9rem;
+    float:right;
+    margin-right:-10rem;
+}
+.icon2 a i{
+    margin-top:2.4rem;
+    float:right;
+    margin-right:-6rem;
+
+}
+.icon1 a i:hover{
+    color:rgba(255, 255, 255, 0.411);
+}
+.icon2 a i:hover{
+   color:rgba(255, 255, 255, 0.411);
+
+}
+
+#mobile_footer_menu{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
