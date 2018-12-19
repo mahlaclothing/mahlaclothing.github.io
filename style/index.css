@@ -100,7 +100,7 @@ div#first_container{
   font-weight: 700;
 }
 
-#first_container #dress p{
+#first_container #dress a{
     color:white;
     font-family: 'Montserrat', sans-serif;  
     font-size: 1.3rem;
@@ -110,7 +110,7 @@ div#first_container{
     left:20%;
 }
 
-#first_container #jackets p{
+#first_container #jackets a{
     color:white;
     font-family: 'Montserrat', sans-serif;  
     font-size: 1.3rem;
@@ -120,7 +120,7 @@ div#first_container{
     right:21%;
 }
 
-#first_container #sweatshirts p{
+#first_container #sweatshirts a{
     color:white;
     font-family: 'Montserrat', sans-serif;  
     font-size: 1.3rem;
