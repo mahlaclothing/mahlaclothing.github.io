@@ -1,112 +1,114 @@
-/* MOBILE */
-@media screen and (max-width: 768px) and (min-width: 426px) {
-
-    nav ul{
-        margin-top:-4rem !important;
-      margin-left:28% !important;
-    }
-
-    nav li a{
-        font-size: 1.5rem;
-  
-    }
-    #first_container #rotate{ 
-        font-size: 2.5rem;
-    }
-    
-    #first_container #dress a{
-        left:17%;
-    }
-    #second_container #background2 img{
-        height:55rem;
-    
-    }
-    
-    #cover_text{
-        bottom:2rem;
-        left:6rem;
-        font-size: 1.5rem;
-    }
-
-    
-#footer_menu{
-    display:none;
-}
-
-#mobile_footer_menu{
-display:inherit;
-}
-
-#fourth_container menu {
-       height:5rem;
-        width:100%;  
-    }
-
-    .icon_bottom{
-       display:inline-block;
-       width:100%;
-    }
-
-    menu ul{
-       text-align: center;
-     }
-
-     .container{
-        top:15%;
-    }
-    
-    
-#mail_front input{
-    margin-top:10%;
-    width:88%!important;
-    letter-spacing: 10px;
-    height:5rem;
-    font-size: 2rem !important;
-    text-align: left;
-    padding-left:2%;
-    opacity: 0.7;
-}
 
 
-
-    
-
-}
-
-/* MOBILE */
+/* LAPTOP */
 @media screen and (max-width: 1025px) and (min-width: 770px) {
 
     /* NAV */
-
-  nav ul{
-      margin-top:-4rem !important;
-    margin-left:40% !important;
-  }
+    nav li a{
+        font-size: 1.5rem;
+    }
 
   #first_container #rotate{ 
-    font-size: 3.4rem;
+    font-size: 2.4rem;
 }
 
 #first_container #dress a{
-    left:18%;
+    left:17.5%;
+    font-size:1rem;
+}
+
+#first_container #jackets a{
+    font-size:1rem;
+}
+
+#first_container #sweatshirts a{
+    font-size:1rem;
 }
 #second_container #background2 img{
-    height:70rem;
-
+    height:55rem;
 }
 
 #cover_text{
     bottom:4rem;
     font-size: 1.5rem;
 }
+.container{
+    top:15%;
+}
+
+
+#mail_front input{
+margin-top:10%;
+width:88%!important;
+letter-spacing: 10px;
+height:5rem;
+font-size: 2rem !important;
+text-align: left;
+padding-left:2%;
+opacity: 0.7;
+}
+
+#fourth_container menu ul li a{
+    font-size:1rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    
+}
+
+.left2{
+    float:left !important;
+    margin-left:-4% !important;
+    margin-right:18%;
+}
+
+.middle{
+    text-align: center;
+    float:left;
+}
+
+#fourth_container menu {
+    margin-top:-2%;
+   height:14rem;
+    width:100%;
+    background-color:black !important;
+    padding-top:2%;
+}
+
+.icons{
+    float:right;
+    margin-right:1.4%;
+  }
 
 
 }
 
-/* MOBILE */
-@media screen and (max-width: 1441px) and (min-width: 1026px) {
+/* LAPTOP */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
     #second_container #background2 img{
-        height:100rem;
+        height:70rem;
+    }
+
+    #first_container #rotate{ 
+        font-size: 3rem;
+    }
+  
+.left2{
+    float:left !important;
+    margin-left:-1% !important;
+margin-right:0;
+}
+
+.container{
+    top:30%;
+}
+
+
+}
+
+/* LAPTOP */
+@media screen and (max-width: 1441px) and (min-width: 1200px) {
+    #second_container #background2 img{
+        height:85rem;
     
     }
 }

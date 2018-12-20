@@ -27,8 +27,8 @@ input.form-control {
   }
 
   nav ul{
-    margin-left:58% !important;
-    margin-top:-4rem !important;
+    float:right !important;
+    margin-top:0.5% !important;
   }
 
   nav li a{
