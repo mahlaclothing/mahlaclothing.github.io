@@ -108,15 +108,28 @@
 }
 
 
-#mail_front input{
-margin-top:10%;
-width:88%!important;
-letter-spacing: 10px;
-height:5rem;
-font-size: 2rem !important;
-text-align: left;
-padding-left:2%;
-opacity: 0.7;
+#mail_front input.email_input{
+    margin-bottom:-5% !important;
+    width:70%!important;
+    letter-spacing: 10px;
+    height:6rem;
+    font-size: 2.5rem !important;
+    text-align: left;
+    margin-left:-2%;
+    padding-left:2%;
+    opacity: 0.7;
+}
+
+#mail_front input.send_input{
+   background-color:transparent;
+   border:transparent;
+   letter-spacing: 10px;
+    height:6rem;
+    font-size: 3rem !important;
+    text-align: right !important;
+    right:1%;
+    top: 0.5rem;
+    position: relative;
 }
 
 #fourth_container menu ul li a{
@@ -171,6 +184,30 @@ margin-right:0;
 
 .container{
     top:30%;
+}
+
+#mail_front input.email_input{
+    margin-bottom:0 !important;
+    width:100%!important;
+    letter-spacing: 10px;
+    height:6rem;
+    font-size: 2.5rem !important;
+    text-align: left;
+    margin-left:10%;
+    padding-left:2%;
+    opacity: 0.7;
+}
+
+#mail_front input.send_input{
+   background-color:transparent;
+   border:transparent;
+   letter-spacing: 10px;
+    height:6rem;
+    font-size: 2.5rem !important;
+  margin-top:2rem;
+    right:-68%;
+    top:-8rem;
+    position: relative;
 }
 
 

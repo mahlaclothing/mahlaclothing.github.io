@@ -22,6 +22,8 @@ div#front_photo_position{
     text-align: center;
 
 }
+.nav-colored { background-color:#000 !important; }
+.nav-transparent { background-color:transparent !important;}
 
 /* CONTAINER 1 */
 
@@ -264,18 +266,13 @@ div#third_container{
 }
 
 
-/* #mail_front.send_input{
-    background:rgba(0,0,0,0) !important;
-    border:rgba(0,0,0,0) !important;
-}
-
-#mail_front.send_input:hover{
+#mail_front input.send_input:hover{
     font-size:4.2rem;
     margin-right:0.2rem;
     color:white;
 
 
-} */
+}
 
 /* CONTAINER 4 FOOTER */
 

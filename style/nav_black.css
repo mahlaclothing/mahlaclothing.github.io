@@ -107,7 +107,7 @@
     background:rgb(255, 255, 255) !important;
     border-color: rgba(255, 255, 255, 0) !important; 
     height:5rem;
-    width:auto;
+    width:150%;
     padding:0.2rem 0 !important;
     position: relative;
     z-index: 10000;
