@@ -200,7 +200,9 @@
     .h1_about{
         padding-top:0 !important;
         margin-bottom: 5rem;
+        margin-top:4rem;
         font-size: 4rem;
+        text-align: center;
         }
 
         .h1_production{
@@ -284,6 +286,7 @@
     
     .h1_about{
         padding-top:0 !important;
+        margin-top:4rem;
         margin-bottom: 5rem;
         font-size: 4rem;
         }
@@ -366,6 +369,7 @@
         padding-top:0 !important;
         margin-bottom: 5rem;
         font-size: 4rem;
+        margin-top:4rem;
         }
         
 
@@ -442,6 +446,7 @@
         padding-top:8rem !important;
         margin-bottom: 5rem;
         font-size: 4rem;
+        margin-top:4rem;
         }
 
         .h1_production{

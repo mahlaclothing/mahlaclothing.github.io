@@ -52,7 +52,7 @@ input.form-control {
   width:150%;
   padding:0.2rem 0 !important;
   position: relative;
-  z-index: 10000;
+  z-index: 10000000000000 !important;
 }
 
 .active a{
@@ -68,8 +68,9 @@ input.form-control {
 
 .dropdown-menu{
   background-color:rgba(0,0,0,0) !important;
-  border-color: rgba(0,0,0,0) !important; 
+  border:none !important;
   margin-left:1px !important;
+  min-width:auto !important;
  
 }
 .dropdown-menu li a:hover{
