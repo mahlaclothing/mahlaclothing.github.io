@@ -243,7 +243,7 @@ div#third_container{
 
 #mail_front input.email_input{
     margin-bottom:5% !important;
-    width:130%!important;
+    width:500px!important;
     letter-spacing: 10px;
     height:6rem;
     font-size: 2.5rem !important;
@@ -258,10 +258,10 @@ div#third_container{
    border:transparent;
    letter-spacing: 10px;
     height:6rem;
-    font-size: 2.5rem !important;
+    font-size: 2.8rem !important;
     text-align: right !important;
-    right:-110%;
-    top:-8rem;
+    right:-350px;
+    top:-9rem;
     position: relative;
 }
 

@@ -90,6 +90,7 @@
 
             <a class="market_p" href="https://mahla-clothing.myshopify.com/blogs/news" target="_blank">Link to News</a>
         </div>
+
     </main>
 
 
@@ -153,11 +154,75 @@
         </menu>
     </footer>
 
+
     <script src="jquery-3.3.1.min(1).js "></script>
     <!--indlæs først! ellers virker bootstrap ikke //-->
     <script src="js/bootstrap.min.js "></script>
 
 
+    <script>
+
+
+        fetch('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=dumpster_troll&api_key=f683d304d843ae5438b89caf4558aeea&limit=15&format=json')
+            .then((response) => {
+                if (response.status == 200) {
+                    return response.json();
+                } else {
+                    throw new Error("Response status not 200");
+                }
+
+                //console.log(response.json());
+
+            })
+            .then((json) => {
+                let content = document.getElementById('mine');
+
+                json.recenttracks.track.forEach(music => {
+                    let tr = document.createElement('tr');
+                    content.appendChild(tr)
+
+                    let imgTd = document.createElement('td');
+                    tr.appendChild(imgTd)
+
+                    let nameTd = document.createElement('td');
+                    tr.appendChild(nameTd)
+
+                    let timeTd = document.createElement('td');
+                    tr.appendChild(timeTd)
+
+
+                    let h1 = document.createElement('h1');
+                    h1.textContent = music.artist['#text'];
+                    imgTd.appendChild(h1);
+
+                    let h2 = document.createElement('h2');
+                    h2.textContent = " ' " + music.name + " ' ";
+                    nameTd.appendChild(h2);
+
+                    let date = document.createElement('h3');
+
+                    if (music['@attr'] != undefined) {
+                        date.textContent = "";
+                        timeTd.appendChild(date)
+
+                        let bil = document.createElement('img');
+                        bil.setAttribute('src', "https://loading.io/spinners/equalizer/lg.equalizer-bars-loader.gif");
+                        timeTd.appendChild(bil);
+
+                    } else {
+
+                        date.textContent = music.date['#text'];
+                        timeTd.appendChild(date)
+                    }
+
+                });
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+
+
+    </script>
 
 </body>
 
