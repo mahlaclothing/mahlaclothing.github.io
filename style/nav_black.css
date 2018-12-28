@@ -99,12 +99,12 @@
      color:black !important;
      margin-left:1rem !important; 
      padding-left:1px !important;  
-      background:rgb(255, 255, 255) !important;
+      background:transparent!important;
    
    }
    
    .dropdown-menu li{
-    background:rgb(255, 255, 255) !important;
+    background: transparent !important;
     border-color: rgba(255, 255, 255, 0) !important; 
     height:5rem;
     width:150%;
