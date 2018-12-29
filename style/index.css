@@ -253,7 +253,7 @@ div#third_container{
     opacity: 0.7;
 }
 
-#mail_front input.send_input{
+#mail_front button.send_input{
    background-color:transparent;
    border:transparent;
    letter-spacing: 10px;
