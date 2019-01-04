@@ -1,13 +1,47 @@
 .about_links a{
     color:white;
-    
+    background-color: black;
+    padding:5% 10% 5%;
+    margin: 5% 0;
+}
+
+.dropdown-menu>li>a{
+
+     background:white!important;
+  
+  }
+  
+  .dropdown-menu li{
+   background: white !important;
+   border-color: rgb(255, 255, 255) !important; 
+ 
+ }
+
+ .dropdown-menu li a:hover{
+    background-color:rgb(255, 255, 255) !important;
+    border-color: rgba(0,0,0,0) !important; 
+  }
+
+
+.about_pos{
+    position: relative;
+    z-index: -10;
+}
+
+
+.block_50{
+    float:left;
+    width:50%;
+    position:none !important;
 }
 .about_links{
-    background-color:black;
     margin-top:4rem;
     text-align: center;
+    letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
-    padding: 2rem;    
+    padding: 2rem; 
+    position: relative;
+    z-index: 30;
 }
 
 .about_links a:hover{

@@ -110,7 +110,7 @@
     width:150%;
     padding:0.2rem 0 !important;
     position: relative;
-    z-index: 10000;
+    z-index: 1000000;
   }
 
   
@@ -147,6 +147,7 @@
      .navbar-collapse{
          position: absolute;
          top:-2rem;
+         z-index: 10000000;
      }
 
      .navbar-nav .open .dropdown-menu {

@@ -1,3 +1,9 @@
+/*IMG*/
+
+.m_img{
+    display:none;
+}
+
 /* COVER */
 div#front_photo_position{
     position: relative;
@@ -203,76 +209,16 @@ div#third_container{
     text-align: center;
     color:black !important;
     font-weight:700;
-    
-}
-
-.container{
+    position: absolute;   
     top:35%;
+    left:8%;
     width:50%!important;
     z-index: 20;
     position: absolute !important;
     color:black !important;
-}
-
-#contactform{
-    bottom:25%;
-    z-index: 20;
-    position: absolute !important;
-    color:black !important;
-}
-
-
-#contactform{
-    bottom:25%;
-    z-index: 20;
-    position: absolute !important;
-    color:black !important;
-}
-
-
-#mail_front p{
-    margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 10px;
-    text-align: center;
-    font-size: 1.7rem;
-    font-weight: 700;
-    color:black !important;
     
 }
 
-#mail_front input.email_input{
-    margin-bottom:5% !important;
-    width:500px!important;
-    letter-spacing: 10px;
-    height:6rem;
-    font-size: 2.5rem !important;
-    text-align: left;
-    margin-left:15%;
-    padding-left:2%;
-    opacity: 0.7;
-}
-
-#mail_front button.send_input{
-   background-color:transparent;
-   border:transparent;
-   letter-spacing: 10px;
-    height:6rem;
-    font-size: 2.8rem !important;
-    text-align: right !important;
-    right:-350px;
-    top:-9rem;
-    position: relative;
-}
-
-
-#mail_front input.send_input:hover{
-    font-size:4.2rem;
-    margin-right:0.2rem;
-    color:white;
-
-
-}
 
 /* CONTAINER 4 FOOTER */
 

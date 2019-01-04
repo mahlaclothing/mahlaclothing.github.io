@@ -1,6 +1,21 @@
 /* MOBILE */
 @media screen and (max-width: 321px) {
 
+    /*IMG*/
+    .m_img{
+        display:block;
+    }
+
+    #mail_front{     
+        top:-40rem;
+        left:10%;
+        width:100%!important;
+        
+    }
+
+    .full_img{
+        display:none;
+    }
      /* NAV */
 
      .navbar-brand img{
@@ -125,7 +140,7 @@ div#third_container{
    display: none;
 }
 
-#mail_front{
+/* #mail_front{
     margin-top: -15rem;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
@@ -133,58 +148,7 @@ div#third_container{
     color:black !important;
     font-weight:700;
     
-}
-
-.container{
-    top:-4rem !important;
-    width:100%!important;
-    z-index: 20;
-    position: absolute !important;
-    color:black !important;
-}
-
-.container h1{
-    font-size: 1.4rem;
-}
-
-
-#contactform{
-    bottom:-18rem;
-    right:10rem;
-    z-index: 20;
-    position: absolute !important;
-    color:black !important;
-}
-
-
-#mail_front p{
-    margin-top: 1.6rem;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color:black !important;
-    
-}
-
-#mail_front input.email_input{
-    margin-bottom:0;
-    width:18rem !important;
-    letter-spacing: 6px;
-    height:2rem;
-    font-size: 1rem !important;
- 
-}
-
-#mail_front input.send_input{
-   letter-spacing: 5px;
-    height:6rem;
-    font-size: 2.5rem !important;
-    right:-58%;
-    top:-5.2rem;
-
-}
+} */
 
 
 /* CONTAINER 4 FOOTER */
@@ -221,7 +185,23 @@ text-align: center !important;
 }
 
 /* MOBILE */
-@media screen and (max-width: 482px) and (min-width: 322px) {
+@media screen and (max-width: 482px) and (min-width: 321px) {
+
+       /*IMG*/
+       .m_img{
+        display:block;
+    }
+
+    #mail_front{     
+        top:-40rem;
+        left:10%;
+        width:100%!important;
+        
+    }
+
+    .full_img{
+        display:none;
+    }
 
     /* NAV */
 
@@ -284,7 +264,7 @@ margin-top:-4rem !important;
 
    
 #first_container #rotate{ 
-   font-size: 1.6rem;
+   font-size: 1.2rem;
 }
 
 #first_container #rotate { 
@@ -347,7 +327,7 @@ div#third_container{
   display: none;
 }
 
-#mail_front{
+/* #mail_front{
    margin-top: -15rem;
    font-family: 'Montserrat', sans-serif;
    letter-spacing: 2px;
@@ -355,59 +335,11 @@ div#third_container{
    color:black !important;
    font-weight:700;
    
-}
-
-.container{
-   top:-4rem !important;
-   width:100%!important;
-   z-index: 20;
-   position: absolute !important;
-   color:black !important;
-}
-
-.container h1{
-   font-size: 1.4rem;
-}
+} */
 
 
-#contactform{
-   bottom:-18rem;
-   z-index: 20;
-   left:8.5rem;
-   position: absolute !important;
-   color:black !important;
-}
 
 
-#mail_front p{
-   margin-top: 1.6rem;
-   font-family: 'Montserrat', sans-serif;
-   letter-spacing: 2px;
-   text-align: center;
-   font-size: 1.2rem;
-   font-weight: 700;
-   color:black !important;
-   
-}
-
-#mail_front input.email_input{
-   margin-bottom:0;
-   width:18rem !important;
-   letter-spacing: 6px;
-
-   height:2rem;
-   font-size: 1rem !important;
-
-}
-
-#mail_front input.send_input{
-  letter-spacing: 5px;
-   height:6rem;
-   font-size: 2.5rem !important;
-   right:-54%;
-   top:-5.2rem;
-
-}
 
 
 /* CONTAINER 4 FOOTER */
@@ -444,8 +376,15 @@ text-align: center !important;
 }
 
 /* MOBILE */
-@media screen and (max-width: 768px) and (min-width: 483px) {
+@media screen and (max-width: 768px) and (min-width: 482px) {
+   /*IMG*/
+   .m_img{
+    display:block;
+}
 
+.full_img{
+    display:none;
+}
     /* NAV */
 
     .navbar-brand img{
@@ -456,7 +395,7 @@ text-align: center !important;
      }
 
      .navbar-toggle{
-         margin-right:30px !important;
+         margin-right:50px !important;
      }
 
      nav ul{
@@ -513,7 +452,7 @@ margin-top:-2rem !important;
        letter-spacing: 3px;
    }
 
-   
+
 #first_container #rotate{ 
    font-size: 1.6rem;
 }
@@ -548,7 +487,7 @@ margin-top:-2rem !important;
 
 #second_container #background2 img{
    width:100%;
-   height:20rem;
+   height:50rem;
    top:0;
    z-index: -21;
    position: relative;
@@ -577,67 +516,14 @@ div#third_container{
 #third_container #photo6 img{
   display: none;
 }
-
-#mail_front{
-   margin-top: -15rem;
-   font-family: 'Montserrat', sans-serif;
-   letter-spacing: 2px;
-   text-align: center;
-   color:black !important;
-   font-weight:700;
-   
-}
-
-.container{
-   top:-4rem !important;
-   width:100%!important;
-   z-index: 20;
-   position: absolute !important;
-   color:black !important;
-}
-
-.container h1{
-   font-size: 2.5rem;
+#mail_front{     
+    top:-40rem;
+    left:10%;
+    width:80%!important;
+    
 }
 
 
-#contactform{
-   bottom:-18rem;
-   z-index: 20;
-   left:5rem;
-   position: absolute !important;
-   color:black !important;
-}
-
-
-#mail_front p{
-   margin-top: 1.6rem;
-   font-family: 'Montserrat', sans-serif;
-   letter-spacing: 2px;
-   text-align: center;
-   font-size: 1.2rem;
-   font-weight: 700;
-   color:black !important;
-   
-}
-
-#mail_front input.email_input{
-   margin-bottom:0;
-   width:25rem !important;
-   letter-spacing: 6px;
-   height:2rem;
-   font-size: 1rem !important;
-
-}
-
-#mail_front input.send_input{
-  letter-spacing: 5px;
-   height:6rem;
-   font-size: 2.5rem !important;
-   right:-55%;
-   top:-5.6rem;
-
-}
 
 
 /* CONTAINER 4 FOOTER */
@@ -653,7 +539,7 @@ text-align: center !important;
 }
 
 #fourth_container menu {
-   margin-top:15rem !important;
+   margin-top:0 !important;
       height:10rem;
        width:100%;
        text-align: center;
@@ -674,7 +560,7 @@ text-align: center !important;
 }
 
 /* LAPTOP */
-@media screen and (max-width: 1025px) and (min-width: 769px) {
+@media screen and (max-width: 1025px) and (min-width: 768px) {
 
     /* NAV */
 
@@ -684,7 +570,7 @@ text-align: center !important;
     }
 
   #first_container #rotate{ 
-    font-size: 2.4rem;
+    font-size: 2.6rem;
 }
 
 #first_container #dress a{
@@ -707,33 +593,12 @@ text-align: center !important;
     bottom:4rem;
     font-size: 1.5rem;
 }
-.container{
-    top:15%;
-}
 
-
-#mail_front input.email_input{
-    margin-bottom:-5% !important;
-    width:70%!important;
-    letter-spacing: 10px;
-    height:6rem;
-    font-size: 2.5rem !important;
-    text-align: left;
-    margin-left:-2%;
-    padding-left:2%;
-    opacity: 0.7;
-}
-
-#mail_front input.send_input{
-   background-color:transparent;
-   border:transparent;
-   letter-spacing: 10px;
-    height:6rem;
-    font-size: 3rem !important;
-    text-align: right !important;
-    right:1%;
-    top: 0.5rem;
-    position: relative;
+#mail_front{     
+    top:20%;
+    left:-1%;
+    width:55%!important;
+    
 }
 
 #fourth_container menu ul li a{
@@ -777,7 +642,7 @@ text-align: center !important;
     }
 
     #first_container #rotate{ 
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
   
 .left2{
@@ -786,33 +651,12 @@ text-align: center !important;
 margin-right:0;
 }
 
-.container{
-    top:30%;
+#mail_front{     
+    top:35%;
+    left:2%;
+    
 }
 
-#mail_front input.email_input{
-    margin-bottom:0 !important;
-    width:100%!important;
-    letter-spacing: 10px;
-    height:6rem;
-    font-size: 2.5rem !important;
-    text-align: left;
-    margin-left:10%;
-    padding-left:2%;
-    opacity: 0.7;
-}
-
-#mail_front input.send_input{
-   background-color:transparent;
-   border:transparent;
-   letter-spacing: 10px;
-    height:6rem;
-    font-size: 2.5rem !important;
-  margin-top:2rem;
-    right:-68%;
-    top:-8rem;
-    position: relative;
-}
 
 
 }
@@ -823,6 +667,16 @@ margin-right:0;
         height:85rem;
     
     }
+    #mail_front{     
+        top:35%;
+        left:2%;
+        
+    }
+    
+    
+  #first_container #rotate{ 
+    font-size: 4rem;
+}
 }
 
 
