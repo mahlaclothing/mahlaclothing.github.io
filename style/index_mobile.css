@@ -193,8 +193,8 @@ text-align: center !important;
     }
 
     #mail_front{     
-        top:-40rem;
-        left:10%;
+        top:-35rem;
+        left:0;
         width:100%!important;
         
     }
@@ -297,7 +297,7 @@ margin-top:-4rem !important;
 
 #second_container #background2 img{
    width:100%;
-   height:20rem;
+   height:40rem;
    top:0;
    z-index: -21;
    position: relative;
@@ -355,7 +355,7 @@ text-align: center !important;
 }
 
 #fourth_container menu {
-   margin-top:15rem !important;
+   margin-top:0rem !important;
       height:10rem;
        width:100%;
        text-align: center;
