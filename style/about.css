@@ -32,7 +32,8 @@
 .block_50{
     float:left;
     width:50%;
-    position:none !important;
+    position: relative !important;
+    z-index: -10;
 }
 .about_links{
     margin-top:4rem;
